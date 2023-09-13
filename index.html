@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,d initial-scale=1.0">
+    <title>form selection</title>
+    <style>
+        body{
+            background-color: burlywood;
+            text-align: center;
+        }
+        h2{
+            background-color: white;
+        }
+        select{
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Drinks,Spirit,and Liquor Department</h2>
+        <form>
+            <label for="drinks">Select a Drink</label>
+            <select id="drinks" name="drinks">
+                <option value="wine">Wine</option>
+                <option value="beer">Beer</option>
+                <option value="cocktails">Cocktails</option>
+            </select>
+            <br>
+            <label for="spirits">Select a Spirit:</label>
+            <select name="spirits" id="spirits">
+                <option value="vodka">Vodka</option>
+                <option value="rum">Rum</option>
+                <option value="whiskey">Whiskey</option>
+            </select>
+            <br>
+            <label for="liquors">Select a Liquor:</label>
+            <select name="liquors" id="liquors">
+                <option value="gin">Gin</option>
+                <option value="tequila">Tequila</option>
+                <option value="brandy">Brandy</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+</body>
+</html>
